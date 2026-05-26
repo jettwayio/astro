@@ -62,7 +62,10 @@
   "//": "When updating pnpm version, update merge-main-to-next workflow too",
   "packageManager": "pnpm@11.0.9",
   "dependencies": {
-    "astro-benchmark": "workspace:*"
+    "astro-benchmark": "workspace:*",
+    "astro": "workspace:*",
+    "@astrojs/cloudflare": "workspace:*",
+    "@astrojs/react": "workspace:*"
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.5",
